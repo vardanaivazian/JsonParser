@@ -1,0 +1,31 @@
+[ {
+  "name" : "reflexive",
+  "definitionType" : "any",
+  "definition" : "x",
+  "condition" : null,
+  "conclusion" : "x = x"
+}, {
+  "name" : "symmetric",
+  "definitionType" : "any",
+  "definition" : "x, y",
+  "condition" : "x = y",
+  "conclusion" : "y = x"
+}, {
+  "name" : "transitive",
+  "definitionType" : "any",
+  "definition" : "x, y, z",
+  "condition" : "x = y & y = z",
+  "conclusion" : "x = z"
+}, {
+  "name" : "segmentReflexivity123",
+  "definitionType" : "segment",
+  "definition" : "AB",
+  "condition" : null,
+  "conclusion" : "AB = BA"
+}, {
+  "name" : "segmentReflexivity213",
+  "definitionType" : "segment",
+  "definition" : "ABC",
+  "condition" : null,
+  "conclusion" : "AB + BC = AC"
+} ]
